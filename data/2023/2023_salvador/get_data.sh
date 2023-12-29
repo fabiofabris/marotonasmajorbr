@@ -1,0 +1,11 @@
+curl 'https://centralderesultados.com.br/resultados/buscar-resultado-evento' \
+  -H 'sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Referer: https://centralderesultados.com.br/evento/maratonasalvador2023' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'evento=1431&evento_empresa=1061&genero=&distancia=0&categoria=&nome=' \
+  --compressed
